@@ -1,0 +1,96 @@
+.nav-ul{
+  background-color: #61dafb;
+  height:90px;
+  margin: 0%;
+  /* align-content: center; */
+}
+
+.nav-ul li{
+  display: inline-block;
+  padding: 15px;
+  margin-top: 1%;
+}
+.nav-ul a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  font-size: large;
+}
+
+.footer {
+  position:absolute;
+  background-color: #61dafb;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+.logo{
+  width:90px;
+  float: left;
+  margin-left: 30px;
+}
+
+.signup{
+  margin: 5% 40% auto 30%;
+  padding:2%;
+  border: 5px solid #61dafb;
+  border-radius: 70px ;
+}
+
+.login{
+  margin: 5% 40% auto 30%;
+  padding:2%;
+  border: 5px solid #61dafb;
+  border-radius: 70px ;
+}
+.addproduct{
+  margin-left: 30%;
+}
+.nav-ul-login{
+  text-align: right;
+}
+.inputBox{
+  display: block;
+  padding:7px;
+  margin: 25px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.loginh5 a{
+  text-decoration: none;
+  color: #61dafb;
+}
+.signupbtn , .loginbtn , .addbtn{
+  width: 170px;
+  height: 40px;
+  margin-left: 22px;
+  font-weight: 800;
+}
+
+.error-msg{
+  color:red;
+  margin: -20px 0 0 30px;
+  display: block;
+}
+.product-list{
+  text-align: center;
+}
+.product-list ul{
+  margin: 0;
+}
+.product-list ul li{
+  display: inline-block;
+  border:1px solid #61dafb;
+  padding:5px;
+  width:150px;
+  height:30px
+}
+.search-product{
+  width:400px;
+  height:40px;
+  border:2px solid #61dafb;
+  padding: 5px;
+  margin:20px;
+  font-size: 18px;
+}
